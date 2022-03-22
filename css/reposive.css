@@ -1,0 +1,67 @@
+@media  screen and (min-width: 414px) and (max-width:1200px) {
+ .sign{
+    width: auto;
+ }
+ #mainmenu{
+    display: flex;
+flex-direction: column;
+    z-index: 10000;
+    width: auto;
+    background-color: black;
+    color: aliceblue;
+    z-index: 2;
+
+    left: 0px;
+ }
+ .slide-wrapper{
+    display: none;
+ }
+ .menu{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+ }
+ .logodm{
+   position: absolute;
+    background-color: aqua;
+    width: 80px;
+    height: 80px;
+  right: 0px;
+ }
+
+ .tk{
+    position: absolute;
+    padding-right: 300px;
+ }
+ .tk .timkiem{
+   width: 43px;
+   height: 35px;
+   position: absolute;
+  left: 50px;
+}
+.tk:hover >.search_txt{
+   width: 240px;
+   border: 1px bisque solid;
+  
+    
+ }
+.search_txt{
+   left: 50px;
+  
+}
+ 
+ .khoangcach{
+  
+    width: auto;
+    color: aliceblue;
+    position: absolute;
+    left: 0px;
+    z-index: 2;
+ }
+ .giohang{
+    position: absolute;
+    right: 250px;
+    z-index: 1;
+ }
+}
